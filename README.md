@@ -1,6 +1,6 @@
 # Souvlaki Chat
 
-A simple chat application for Souvlaki.
+A simple chat application build using [Next.js 15](https://nextjs.org) and [T3 Stack](https://create.t3.gg).
 
 ## TODO
 
