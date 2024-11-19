@@ -7,7 +7,7 @@ A simple chat application for Souvlaki.
 - [x] Make it deployable (to Vercel)
 - [x] Scaffold the basics of the UI
 - [ ] Tidy up build process
-- [ ] Add a database (with Drizzle and Vercel Postgres)
+- [x] Add a database (with Drizzle ORM and Vercel Postgres)
 - [ ] Add authentication (with Clerk)
 - [ ] Add error handling (with Sentry)
 - [ ] Add the actual ability to chat
