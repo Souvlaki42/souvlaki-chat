@@ -12,11 +12,11 @@ import {
 
 export const createTable = pgTableCreator((name) => `souvlaki-chat_${name}`);
 
-export const posts = createTable(
-  "post",
+export const messages = createTable(
+  "messages",
   {
     id: integer("id").primaryKey().generatedByDefaultAsIdentity(),
-    name: varchar("name", { length: 256 }).notNull(),
+    content: varchar("content", { length: 256 }).notNull(),
     createdAt: timestamp("created_at", { withTimezone: true })
       .default(sql`CURRENT_TIMESTAMP`)
       .notNull(),
@@ -25,7 +25,7 @@ export const posts = createTable(
       .notNull()
       .$onUpdate(() => new Date()),
   },
-  (post) => ({
-    nameIndex: index("name_idx").on(post.name),
+  (message) => ({
+    contentIndex: index("content_idx").on(message.content),
   }),
 );
