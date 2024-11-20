@@ -3,7 +3,7 @@ import "~/styles/globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
-import { Navbar } from "./_components/Navbar";
+import { Navbar } from "~/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Souvlaki Chat",

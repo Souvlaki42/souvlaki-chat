@@ -10,6 +10,7 @@ A simple chat application build using [Next.js 15](https://nextjs.org) and [T3 S
 - [x] Add a database (w/ Vercel Postgres)
 - [x] Attach db to UI
 - [x] Add authentication (w/ Clerk)
+- [x] Add ShadCN and setup for later
 - [ ] Add error handling (w/ Sentry)
 - [ ] Add the actual ability to chat
 - [ ] Add analytics (w/ PostHog)
